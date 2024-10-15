@@ -1,0 +1,12 @@
+<web-app>
+<servlet>
+<sevlet-name>springMVC</sevlet-name>
+
+<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<sevlet-name>springMVC</sevlet-name>
+<url-pattern>/</url-pattern>
+</servlet-mapping>
+</web-app>
